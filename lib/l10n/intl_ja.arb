@@ -1,0 +1,816 @@
+{
+  "step": "ステップ {step_num}",
+  "@step": {
+    "type": "text",
+    "placeholders": {
+      "step_num": {}
+    }
+  },
+  "phrase1": "職業は何ですか？",
+    "@phrase1": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "phrase2": "学生です  いいえ",
+    "@phrase2": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "yes": "はい",
+    "@yes": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "jobTitle": "最近の役職",
+    "@jobTitle": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "empType": "雇用形態",
+    "@empType": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "fullTime": "フルタイム",
+    "@fullTime": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "partTime": "アルバイト",
+    "@partTime": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "selfEmp": "自営業",
+    "@selfEmp": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "intern": "インターンシップ",
+    "@intern": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "contract": "コントラクト",
+    "@contract": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "freelance": "フリーランス",
+    "@freelance": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "compName": "会社名",
+    "@compName": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "period": "期間",
+    "@period": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "working": "まだ働く？",
+    "@working": {
+      "type": "text",
+      "placeholders": {}
+    },
+     "studying": "まだ勉強中？",
+      "@studying": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "from": "から",
+    "@from": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "to": "まで",
+    "@to": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "next_btn": "次へ",
+    "@next_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "skip_btn": "スキップ",
+      "@skip_btn": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "schoolName": "学校名",
+    "@schoolName": {
+      "type": "text",
+      "placeholders": {}
+    },
+  "course": "学科",
+  "@course": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "studyPeriod": "研究の期間",
+  "@studyPeriod": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "interests": "関心のある分野",
+  "@interests": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase3": "働きたい分野をおしえてください",
+  "@phrase3": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "job": "仕事",
+  "@job": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "network": "ネットワーク",
+  "@network": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "back_btn": "戻る",
+  "@back_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "location": "場所",
+  "@location": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase4": "検索を絞り込む",
+  "@phrase4": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locField": "国名",
+  "@locField": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase5": "あなたについて",
+  "@phrase5": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "descField": "簡単な説明をかく",
+  "@descField": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start_btn": "スタート!",
+  "@start_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "ログイン",
+    "@login": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "registration": "登録",
+    "@registration": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "email": "メール",
+    "@email": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "password": "暗号",
+    "@password": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "remember": "覚えておいて",
+    "@remember": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "forgot": "パスワードを忘れた",
+    "@forgot": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "emailMsg": "登録したメールアドレスを入力してください",
+      "@emailMsg": {
+        "type": "text",
+        "placeholders": {}
+      },
+      "verifyMsg": "アカウントを確認するためのリンクがメールに送信されました。",
+      "@verifyMsg": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "ind_btn": "インディビジュアル",
+    "@ind_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "corp_btn": "コーポレート",
+    "@corp_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+"valFname": "名を入力してください",
+  "@valFname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valLname": "姓を入力してください",
+  "@valLname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valPass": "暗号を入力してください",
+  "@valPass": {
+    "type": "text",
+    "placeholders": {}
+  },
+    "send_btn": "送る",
+    "@send_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "emailSent": "送信しました",
+    "@emailSent": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "backToLogin_btn": "ログインに戻る",
+    "@backToLogin_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "fname": "ファーストネーム",
+    "@fname": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "lname": "ラストネーム",
+    "@lname": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "confPass": "暗号を確認する",
+    "@confPass": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "userType": "ユーザーの種類を選ぶ",
+    "@userType": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "tandc": "利用規約",
+    "@tandc": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "reg_btn": "登録",
+    "@reg_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "phrase6": "会社のプロフィール",
+    "@phrase6": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "mnc": "多国籍企業",
+    "@mnc": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "startup": "スタートアップ",
+    "@startup": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "designation": "指定",
+    "@designation": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "compEmail": "会社のメール",
+    "@compEmail": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "contact": "電話番号",
+    "@contact": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "cancel_btn": "キャンセル",
+    "@cancel_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+     "valCompName": "会社名を入力してください",
+      "@valCompName": {
+        "type": "text",
+        "placeholders": {}
+      },
+      "valEmail": "メールアドレスを入力してください",
+      "@valEmail": {
+        "type": "text",
+        "placeholders": {}
+      },
+      "valCountryName": "国名を入力してください",
+      "@valCountryName": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "phrase7": "御社について",
+    "@phrase7": {
+      "type": "text",
+      "placeholders": {}
+    },
+  "profile_name": "石田浩幸",
+  "@profile_name": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bookmark_btn": "ブックマーク",
+  "@bookmark_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "apply_btn": "申し込む",
+  "@apply_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recommend_btn": "お勧め",
+  "@recommend_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "follow_btn": "フォロー",
+  "@follow_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "help_btn": "ヘルプ",
+  "@help_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings_btn": "設定",
+  "@settings_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profile": "プロフィール",
+    "@profile": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "ceo": "シーイーオー",
+    "@ceo": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "mosaique": "モザイク",
+    "@mosaique": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "loc": "バンガロール、インド",
+    "@loc": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "selfIntro": "自己紹介",
+    "@selfIntro": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "workExp": "就業経験",
+    "@workExp": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "edu": "教育",
+    "@edu": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "skill": "スキル",
+    "@skill": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "resume": "履歴書",
+    "@resume": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "upload": "ファイルをアップロードする",
+    "@upload": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "browse_btn": "ブラウズ..",
+    "@browse_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "noFile": "ファイルが選択されていません",
+    "@noFile": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "upload_btn": "ファイルをアップロードする",
+    "@upload_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "projects": "プロジェクト",
+    "@projects": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "accomp": "実績",
+    "@accomp": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "lang": "言語",
+    "@lang": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "qual": "資格",
+    "@qual": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "other": "他の",
+    "@other": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "following": "フォロー中",
+    "@following": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "compProfName": "カマル",
+    "@compProfName": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "director": "社長",
+    "@director": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "about": "について",
+    "@about": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "compDet": "会社の詳細",
+    "@compDet": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "industry": "事業",
+    "@industry": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "terms_conditions": "利用規約",
+    "@terms_conditions": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "logout": "ログアウト",
+    "@logout": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "logoutWarn": "ログアウトしますか？",
+    "@logoutWarn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "no_btn": "いいえ",
+    "@no_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "home": "ホーム",
+    "@home": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "feed": "フェード",
+    "@feed": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "notif": "お知らせ",
+    "@notif": {
+      "type": "text",
+      "placeholders": {}
+    },
+     "work": ".ワーク",
+      "@work": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "search": "検索",
+    "@search": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "webEng": "ウェブ　エンジニア",
+    "@webEng": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "mssg": "ジャバエンジニアを探している",
+    "@mssg": {
+      "type": "text",
+      "placeholders": {}
+    },
+     "jobs": "仕事",
+      "@jobs": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "php": "PHP について",
+    "@php": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "sort": "ソート",
+    "@sort": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "area": "国",
+    "@area": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "india": "インド",
+    "@india": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "japan": "日本",
+    "@japan": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "lookFor": "探している",
+    "@lookFor": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "sortIntern": "インターン",
+    "@sortIntern": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "sortProject": "プロジェクト",
+    "@sortProject": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "invest": "インベストメント",
+    "@invest": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "fee": "料金",
+    "@fee": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "gtSymbol": "＞万",
+    "@gtSymbol": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "pos": "ポジション",
+    "@pos": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "keyword": "キーワード",
+    "@keyword": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "postOp": "求人掲載",
+      "@postOp": {
+        "type": "text",
+        "placeholders": {}
+      },
+    "jobCat": "職種",
+    "@jobCat": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "softEng": "ソフトウェア工学",
+    "@softEng": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "mechEng": "機械工学",
+    "@mechEng": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "eleEng": "電気工学",
+    "@eleEng": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "hr": "ヒューマンリソース",
+    "@hr": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "postJobTitle": "職名",
+    "@postJobTitle": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "yearExp": "経験年数",
+    "@yearExp": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "salary": "給料",
+    "@salary": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "jobDesc": "仕事内容",
+    "@jobDesc": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "post_btn": "ポスト",
+    "@post_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "tag": "申し込みました",
+    "@tag": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "msg": "メッセージ",
+    "@msg": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "postedJobs": "投稿した求人",
+    "@postedJobs": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "edit_btn": "エディト",
+    "@edit_btn": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "loading": "ローディング..",
+      "@loading": {
+        "type": "text",
+        "placeholders": {}
+      },
+  "copExp": "{num}年の経験",
+    "@copExp": {
+      "type": "text",
+      "placeholders": {
+        "num": {}
+      }
+    },
+    "copName1": "ラマリンガム",
+    "@copName1": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "copName2": "シンフォニー",
+    "@copName2": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "copName3": "キャンディス",
+    "@copName3": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "copDesig1": "システムエンジニア、L＆T",
+    "@copDesig1": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "copDesig2": "テスト、ジャービス",
+    "@copDesig2": {
+      "type": "text",
+      "placeholders": {}
+    },
+    "copDesig3": "人事部、TVSInc",
+    "@copDesig3": {
+      "type": "text",
+      "placeholders": {}
+    },
+  "welcome": "ようこそ！",
+   "@welcome": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "user": "ユーザー",
+   "@user": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "createMsg": "プロフィールを作成してください",
+   "@createMsg": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "setLang": "言語を選択:",
+   "@setLang": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "english": "英語",
+   "@english": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "japanese": "日本語",
+   "@japanese": {
+     "type": "text",
+     "placeholders": {}
+   },
+   "together": "一緒に",
+     "@together": {
+       "type": "text",
+       "placeholders": {}
+     },
+ "archive": "アーカイブ",
+   "@archive": {
+     "type": "text",
+     "placeholders": {}
+},
+"accept_btn": "受け入れる",
+ "@accept_btn": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "deny_btn": "拒否",
+ "@deny_btn": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "sortApply": "適用",
+   "@sortApply": {
+     "type": "text",
+     "placeholders": {}
+   },
+"photos": "写真",
+ "@photos": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "website": "ウェブサイト",
+ "@website": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "notifPref": "通知設定",
+ "@notifPref": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "feedback": "フィードバック",
+ "@feedback": {
+   "type": "text",
+   "placeholders": {}
+ },
+ "followers": "フォロワー",
+ "@followers": {
+   "type": "text",
+   "placeholders": {}
+ }
+}

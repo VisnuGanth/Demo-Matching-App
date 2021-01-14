@@ -1,0 +1,816 @@
+{
+  "step": "Step {step_num}",
+  "@step": {
+    "type": "text",
+    "placeholders": {
+      "step_num": {}
+    }
+  },
+  "phrase1": "What do you do?",
+  "@phrase1": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase2": "I'm a student  No",
+  "@phrase2": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "Yes",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "jobTitle": "Recent Job Title",
+  "@jobTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "empType": "Employment Type",
+  "@empType": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fullTime": "Full-time",
+  "@fullTime": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "partTime": "Part-time",
+  "@partTime": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selfEmp": "Self-employed",
+  "@selfEmp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "intern": "Internship",
+  "@intern": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contract": "Contract",
+  "@contract": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "freelance": "Freelance",
+  "@freelance": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "compName": "Company Name",
+  "@compName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "period": "Period",
+  "@period": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "working": "Still working?",
+  "@working": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "studying": "Still studying?",
+  "@studying": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "from": "From",
+  "@from": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "to": "To",
+  "@to": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "next_btn": "NEXT",
+  "@next_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "skip_btn": "Skip",
+  "@skip_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "schoolName": "Name of School",
+  "@schoolName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "course": "Course of Study",
+  "@course": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "studyPeriod": "Period of Study:",
+  "@studyPeriod": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "interests": "Fields of Interest",
+  "@interests": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase3": "Tell us what fields you would like to work in",
+  "@phrase3": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "job": "Job",
+  "@job": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "network": "Network",
+  "@network": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "back_btn": "Back",
+  "@back_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "location": "Location",
+  "@location": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase4": "Narrow down your search",
+  "@phrase4": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locField": "Region/Country Name",
+  "@locField": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase5": "About You",
+  "@phrase5": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "descField": "Write a short description",
+  "@descField": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start_btn": "Start!",
+  "@start_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Login",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "registration": "Registration",
+  "@registration": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remember": "Remember Me",
+  "@remember": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgot": "Forgot Password",
+  "@forgot": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailMsg": "Enter your registered email",
+  "@emailMsg": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "verifyMsg": "Link to verify account has been sent to your email.",
+  "@verifyMsg": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ind_btn": "Individual",
+  "@ind_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "corp_btn": "Corporate",
+  "@corp_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valFname": "Enter First Name",
+  "@valFname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valLname": "Enter Last Name",
+  "@valLname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valPass": "Enter a password",
+  "@valPass": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "send_btn": "Send",
+  "@send_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailSent": "Email Sent",
+  "@emailSent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "backToLogin_btn": "Back to Login",
+  "@backToLogin_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fname": "First Name",
+  "@fname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lname": "Last Name",
+  "@lname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "confPass": "Confirm Password",
+  "@confPass": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userType": "Choose user type",
+  "@userType": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tandc": "Accept Terms & Conditions",
+  "@tandc": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reg_btn": "Register",
+  "@reg_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase6": "Company Profile",
+  "@phrase6": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mnc": "MNC",
+  "@mnc": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "startup": "Startup",
+  "@startup": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "designation": "Designation",
+  "@designation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "compEmail": "Company Email",
+  "@compEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contact": "Contact Number",
+  "@contact": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel_btn": "Cancel",
+  "@cancel_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valCompName": "Enter your company name",
+  "@valCompName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valEmail": "Enter an email",
+  "@valEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valCountryName": "Enter your country name",
+  "@valCountryName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "phrase7": "About your company",
+  "@phrase7": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profile_name": "Hiro Ishida",
+  "@profile_name": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bookmark_btn": "Bookmark",
+  "@bookmark_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "apply_btn": "Apply",
+  "@apply_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recommend_btn": "Recommend",
+  "@recommend_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "follow_btn": "Follow",
+  "@follow_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "help_btn": "Help",
+  "@help_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings_btn": "Settings",
+  "@settings_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profile": "Profile",
+  "@profile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ceo": "CEO",
+  "@ceo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mosaique": "Mosaique",
+  "@mosaique": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loc": "Bangalore, India",
+  "@loc": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selfIntro": "Self Introduction",
+  "@selfIntro": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "workExp": "Work Experience",
+  "@workExp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "edu": "Education",
+  "@edu": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "skill": "Skill",
+  "@skill": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "resume": "Resume",
+  "@resume": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "upload": "Upload a File",
+  "@upload": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "browse_btn": "Browse..",
+  "@browse_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noFile": "No file selected",
+  "@noFile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "upload_btn": "Upload File",
+  "@upload_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "projects": "Projects",
+  "@projects": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accomp": "Accomplishments",
+  "@accomp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lang": "Language",
+  "@lang": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qual": "Qualifications",
+  "@qual": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "other": "Other",
+  "@other": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "following": "Following",
+  "@following": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "compProfName": "Kamal",
+  "@compProfName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "director": "Director",
+  "@director": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about": "About",
+  "@about": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "compDet": "Company Details",
+  "@compDet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "industry": "Industry",
+  "@industry": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "terms_conditions": "Terms & Conditions",
+  "@terms_conditions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "Logout",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logoutWarn": "Do you want to Logout?",
+  "@logoutWarn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "no_btn": "No",
+  "@no_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Home",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "feed": "Feed",
+  "@feed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notif": "Notification",
+  "@notif": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "work": ".work",
+  "@work": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "search": "Search",
+  "@search": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "webEng": "Web Engineer",
+  "@webEng": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mssg": "Looking for Java Developer",
+  "@mssg": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "jobs": "Jobs",
+  "@jobs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "php": "About PHP",
+  "@php": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sort": "Sort",
+  "@sort": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "area": "Area",
+  "@area": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "india": "India",
+  "@india": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "japan": "Japan",
+  "@japan": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lookFor": "Looking For",
+  "@lookFor": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sortIntern": "Intern",
+  "@sortIntern": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sortProject": "Project",
+  "@sortProject": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invest": "Investment",
+  "@invest": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fee": "Fee",
+  "@fee": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "gtSymbol": "> L",
+  "@gtSymbol": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pos": "Position",
+  "@pos": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "keyword": "Keyword",
+  "@keyword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "postOp": "Post Openings",
+  "@postOp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "jobCat": "Job Category",
+  "@jobCat": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "softEng": "Software Engineer",
+  "@softEng": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mechEng": "Mechanical Engineer",
+  "@mechEng": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "eleEng": "Electrical Engineer",
+  "@eleEng": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "hr": "Human Resources",
+  "@hr": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "postJobTitle": "Job Title",
+  "@postJobTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yearExp": "Years of Experience",
+  "@yearExp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salary": "Salary",
+  "@salary": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "jobDesc": "Job Description",
+  "@jobDesc": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "post_btn": "Post",
+  "@post_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tag": "Applied",
+  "@tag": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "msg": "Messages",
+  "@msg": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "postedJobs": "Posted Jobs",
+  "@postedJobs": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "edit_btn": "Edit",
+  "@edit_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "loading": "Loading..",
+  "@loading": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copExp": "{num} years experience",
+  "@copExp": {
+    "type": "text",
+    "placeholders": {
+      "num": {}
+    }
+  },
+  "copName1": "Ramalingam",
+  "@copName1": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copName2": "Symphony",
+  "@copName2": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copName3": "Candice",
+  "@copName3": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copDesig1": "System Engineer, L&T",
+  "@copDesig1": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copDesig2": "Testing, Jarvis",
+  "@copDesig2": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "copDesig3": "HR, TVS Inc",
+  "@copDesig3": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "welcome": "Welcome!",
+  "@welcome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "user": "User",
+  "@user": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createMsg": "Create your profile",
+  "@createMsg": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setLang": "Select Language:",
+  "@setLang": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "english": "English",
+  "@english": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "japanese": "Japanese",
+  "@japanese": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "together": "together",
+  "@together": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "archive": "Archive",
+  "@archive": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accept_btn": "Accept",
+  "@accept_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "deny_btn": "Deny",
+  "@deny_btn": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sortApply": "Apply",
+  "@sortApply": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "photos": "Photos",
+  "@photos": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "website": "Website",
+  "@website": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notifPref": "Notification Preferences",
+  "@notifPref": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "feedback": "Feedback",
+  "@feedback": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "followers": "Followers",
+  "@followers": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
