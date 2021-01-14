@@ -189,18 +189,12 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
   //Function to update data through a post request to the api
   Future<UpdateProfile> updateData(var data, var imagePath) async {
 
-    var headers = {
-      'Accept': 'application/json',
-      'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MjQ4NDU5YS02ODNmLTQ4MTEtYmJjNy1lM2NjYzkwNDg5ODYiLCJqdGkiOiIyYmY4NDQzNjA1NDEzMzM5OTBhOTdiMjdjZDllYTIzZmZiZWUwNjczMjkyNTVmOThiZjY5NmY2OWZhZTE1YWYyMWUzOWM1OGM4MzM1M2RjNSIsImlhdCI6MTYwODM5MTE4NywibmJmIjoxNjA4MzkxMTg3LCJleHAiOjE2Mzk5MjcxODcsInN1YiI6IjMiLCJzY29wZXMiOltdfQ.cbAL_ZSQpOXZejTbkf7d4P92Z4nwq-tlnPA-0SRhQ-Fz2xWOtDEckQaRlDxTzrQFL1gAzVr4lD03j4c2UKTL6C9mob5QQSKeJR4lpAr2MkAOrBNMtOL8JG-5UwspPp5As5bGp2V3HYQ5E6CMu_J1hfYLkZg6rUyGz3fpS6DJKd-GG5C5M1hQgnOabGgkgysfGkzkM9vQvJz9BeeEIzPZ4Rv7j724VrYTxQSyjYLm1UX2sI1E_EWwAKJE60N9FcL-g_QTkm_O_WsdGhhQORq44gXgtWGdOzQ7_tA_gKYaQZzztWsjw1quPnWLxUHtua3TAU2jncqR0K-Ka7CACrZBKDR4e3_2-EkwcOLTj4cAoYZdB2XEJ2YMMQa-Ky0kNhCZLWxBrF86yZr5a3aUpTBven5m_FOHkDzGk9MKXApVOj35N2BGLZ74vct0lBvxGSALDU5lIqp9-PCgLN04g_gkt1f5iZbodZ8p8-Gb7HwErybx7iadTZTmmKXxhbUhx9AJgtWSjbIJ6criVSkUnB2Qr2TCEFQkyNs58FELfk63zSLCg2gvheN9MG1-P1RkJCjHI1-xT_fFqhtE1hs8oL21xSWJosVLXzE3iAoQJoTHJ8NZu60at9TKFqmAPMkaXMrNUD8LIl4PjkcAPFRkRDO0tKegaDB9k5XHNPjWzaLv6qM'
-    };
-
     var request = http.MultipartRequest('POST', Uri.parse('https://mosaique.work/matching-apps/public/api/user/3/update'));
 
     request.fields.addAll(data);
     if(imagePath != null) {
       request.files.add(await http.MultipartFile.fromPath('avatar', imagePath));
     }
-    request.headers.addAll(headers);
 
     http.StreamedResponse streamedResponse = await request.send();
     var response = await http.Response.fromStream(streamedResponse);
@@ -224,10 +218,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
   updateAccomplishments(var data) async {
     final http.Response response = await http.post(
         'https://mosaique.work/matching-apps/public/api/user/1/update/accomplishments',
-        headers: <String, String>{
-          'Accept': 'application/json',
-          'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MjQ4NDU5YS02ODNmLTQ4MTEtYmJjNy1lM2NjYzkwNDg5ODYiLCJqdGkiOiI0MTNkYzhhMDkyOTc3NGQ3NjBhMmEwMDQ4NTJmOWQ0YWYzZjNlMDdiYjU5ZjVkMTVmMTExMTYxMWE1NWI2MWQ5MzFkMjUyOGFkNjQ3YTZjYSIsImlhdCI6MTYwODk5OTIxNCwibmJmIjoxNjA4OTk5MjE0LCJleHAiOjE2NDA1MzUyMTQsInN1YiI6IjMiLCJzY29wZXMiOltdfQ.YVZcmgu_olGqcOaha7ZBYq0TVLEOQl_QaCs3AQVKdYwqJXrBFxqdXOuAVGdrse2bDj1tFlQuERdoXHVNQ-jmlSuC9-Ux7Ocr_xKMBe6TRojWctVZ6vluWqXK0aMpevfFRzUsIMhhaU0Ze2tF5MGz5OPpkwrI9uc5wWsbboB5k6FHZwoZ6HmWwQFPsxDr0S67VLvnIwqa65EM5DzyfOjQfQvYPwLn_a5qoTllGWO86Mvul3OPqxd3-yP1GXIa7a-iyUJ51aNbNkWCabZPDzvuFLQgGJXnJIpCxRg41RFmnsgSaM7zHywN3rAhqzmLJBiqMRV-0qt8f_gz0XmBgTnahXjWngFYccCW3IKRQouhTNsMkR7OyRurL4MyliFIk0VGStOH4IuUR4ojzKAvlZANMTMh0ft8-7LuI3YJJB3qSrkJ4znLEjCCPfzmDt0KpwBWKmjDzUKKJxXzJTFvQCV5LueR6ZI7yAEK1CqYndyNtFIBCFVF65vSQItBlo6kT6cbQQ3av8UNAEfbHsHfV6a184RQqooTNwzcVKvYUkxwls2tGEeV7SDTciIZRGRIIKhv5pEuYzxuk1o5Xz5VStkhCOWh12vM-Hzx2V5g5DzgfkCXypRUTbJB7MZ3myUbrdekvVbuAkNBNKZwhYSF0T-rx5ZTCQUqS7arx40yua-gj1U'
-        },
         body: {
           'accomplishment_name': 'Accomplishment',
           'accomplishment_detail': data,
@@ -262,7 +252,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
       if (pickedFile != null) {
         imagePath = pickedFile.path;
         showLoaderDialog(context);
-        updateData(newData, imagePath);
       } else {
         print('No image selected.');
       }
@@ -277,7 +266,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
       if (pickedFile != null) {
         imagePath = pickedFile.path;
         showLoaderDialog(context);
-        updateData(newData, imagePath);
       } else {
         print('No image selected.');
       }
@@ -907,7 +895,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
                                               //Update modified value and call function to invoke the API
                                               newData['skills'] = convertStringToJsonString(skillController.text);
                                               showLoaderDialog(context);
-                                              updateData(newData, imagePath);
                                             });
                                           },
                                           child: Icon(
@@ -1369,7 +1356,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
                                               //Update modified value and call function to invoke the API
                                               newAccomplishment = accomplishmentController.text;
                                               showLoaderDialog(context);
-                                              updateAccomplishments(newAccomplishment);
                                             });
                                           },
                                           child: Icon(
@@ -1496,7 +1482,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
                                               //Update modified value and call function to invoke the API
                                               newData['language'] = convertStringToJsonString(langController.text);
                                               showLoaderDialog(context);
-                                              updateData(newData, imagePath);
                                             });
                                           },
                                           child: Icon(
@@ -1623,7 +1608,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
                                               //Update modified value and call function to invoke the API
                                               newData['qualification'] = convertStringToJsonString(qualificationController.text);
                                               showLoaderDialog(context);
-                                              updateData(newData, imagePath);
                                             });
                                           },
                                           child: Icon(
@@ -1750,7 +1734,6 @@ class _IndProfileView1State extends State<IndProfileView1> with TickerProviderSt
                                               //Update modified value and call function to invoke the API
                                               newData['other'] = convertStringToJsonString(otherController.text);
                                               showLoaderDialog(context);
-                                              updateData(newData, imagePath);
                                             });
                                           },
                                           child: Icon(
